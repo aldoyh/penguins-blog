@@ -10,7 +10,7 @@ export default function Alert({ preview }) {
       })}
     >
       <Container>
-        <div className="py-3 text-center text-sm font-medium animate-fade-in">
+        <div className="py-3 text-center text-sm font-medium">
           {preview ? (
             <>
               <span className="inline-block mr-2 text-lg">⚠️</span>
